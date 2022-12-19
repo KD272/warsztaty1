@@ -40,4 +40,4 @@ jobs:
     steps:
       - run: echo Deploying on test server
       
-      - run: echo ${{ secret.SECRET1 }}
+      - run: echo ${{ secrets.SECRET1 }}
